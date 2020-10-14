@@ -8,7 +8,7 @@ import 'leaflet/dist/leaflet.css'
 import mapMarkerImg from '../images/Map-Marker.svg'
 
 import '../Styles/Pages/Orphanages-map.css';
-import { tileLayer } from 'leaflet';
+// import { tileLayer } from 'leaflet';
 
 function OrphanagesMap() {
     return (
@@ -18,13 +18,10 @@ function OrphanagesMap() {
                     <img src={mapMarkerImg} alt="Happy" />
                     <h2>Escolha um organato no mapa</h2>
                     <p>Muitas crianças estão esperando a sua visia :) </p>
-
                 </header>
 
                 <footer>
-                    <strong>
-                        Minas Gerais
-                 </strong>
+                    <strong> Minas Gerais </strong>
                     <span> Belo Horizonte </span>
                 </footer>
             </aside>
